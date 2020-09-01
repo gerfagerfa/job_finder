@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:job_finder/data.dart';
+import 'package:job_finder/jobs.dart';
+import 'package:job_finder/applications.dart';
+import 'package:job_finder/profile.dart';
 
 class Master extends StatefulWidget {
   @override
@@ -10,10 +13,26 @@ class _MasterState extends State<Master> {
 
   List<NavigationItem> navigationItems = getNavigationItemList();
   NavigationItem selectedItem;
-  
+
+  Widget currentWidgetView;
+
+  @override
+  void initState() {
+    super.initState();
+    setState(() {
+      selectedItem = navigationItems[0];
+      currentWidgetView = Jobs();
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.grey[200],
+      body: AnimatedSwitcher(
+        duration: Duration(milliseconds: 300),
+        child: currentWidgetView,
+      ),
       bottomNavigationBar: Container(
         height: 80,
         decoration: BoxDecoration(
@@ -43,20 +62,27 @@ class _MasterState extends State<Master> {
     return GestureDetector(
       onTap: () {
         setState(() {
+          switch (item.title){
+            case "Jobs": currentWidgetView = Jobs(); break;
+            case "Applications": currentWidgetView = Applications(); break;
+            case "Profile": currentWidgetView = Profile(); break;
+          }
           selectedItem = item;
         });
       },
       child: AnimatedOpacity(
         duration: Duration(milliseconds: 300),
-        opacity: selectedItem == item ? 1.0 : 0.2,
+        opacity: selectedItem == item ? 1.0 : 0.3,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
 
-            Icon(
-              item.iconData,
-              color: Colors.black,
-              size: 28,
+            Text(
+              item.title,
+              style: TextStyle(
+                fontSize: 16,
+                fontWeight: FontWeight.bold,
+              ),
             ),
 
             selectedItem == item
