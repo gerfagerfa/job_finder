@@ -19,7 +19,7 @@ class _ApplicationsState extends State<Applications> {
         children: [
 
           Padding(
-            padding: EdgeInsets.only(right: 48, left: 48, top: 48, bottom: 32),
+            padding: EdgeInsets.only(right: 32, left: 32, top: 48, bottom: 32),
             child: Text(
               "Your \napplications (" + applications.length.toString() + ")",
               style: TextStyle(
@@ -31,7 +31,7 @@ class _ApplicationsState extends State<Applications> {
           ),
 
           Padding(
-            padding: EdgeInsets.only(right: 8, left: 8, bottom: 8),
+            padding: EdgeInsets.only(right: 32, left: 32, bottom: 8),
             child: Column(
               children: buildApplications(),
             ),

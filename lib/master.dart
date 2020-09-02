@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:job_finder/data.dart';
 import 'package:job_finder/jobs.dart';
 import 'package:job_finder/applications.dart';
-import 'package:job_finder/profile.dart';
 
 class Master extends StatefulWidget {
   @override
@@ -65,7 +64,6 @@ class _MasterState extends State<Master> {
           switch (item.title){
             case "Jobs": currentWidgetView = Jobs(); break;
             case "Applications": currentWidgetView = Applications(); break;
-            case "Profile": currentWidgetView = Profile(); break;
           }
           selectedItem = item;
         });
