@@ -127,6 +127,7 @@ class _JobsState extends State<Jobs> {
             ),
           ),
         ),
+      
       ],
     );
   }
@@ -139,28 +140,26 @@ class _JobsState extends State<Jobs> {
           Radius.circular(5),
         ),
       ),
-      child: Padding(
+      child: Container(
         padding: EdgeInsets.symmetric(horizontal: 12, vertical: 8,),
-        child: Container(
-          child: Row(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              Text(
-                text,
-                style: TextStyle(
-                  fontSize: 14,
-                  fontWeight: FontWeight.bold,
-                ),
+        child: Row(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Text(
+              text,
+              style: TextStyle(
+                fontSize: 14,
+                fontWeight: FontWeight.bold,
               ),
-              SizedBox(
-                width: 8,
-              ),
-              Icon(
-                Icons.clear,
-                size: 18,
-              ),
-            ],
-          ),
+            ),
+            SizedBox(
+              width: 8,
+            ),
+            Icon(
+              Icons.clear,
+              size: 18,
+            ),
+          ],
         ),
       ),
     );

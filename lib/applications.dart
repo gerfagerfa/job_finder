@@ -138,7 +138,8 @@ class _ApplicationsState extends State<Applications> {
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 16,
-                        color: application.status == "Opened" ? Colors.green[500] : application.status == "Cancelled" ? Colors.red[500] : Colors.black,
+                        color: application.status == "Opened" ? Colors.green[500] : 
+                        application.status == "Cancelled" ? Colors.red[500] : Colors.black,
                       ),
                     ),
                   ),

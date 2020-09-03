@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:job_finder/master.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:job_finder/master.dart';
 
 void main() {
   runApp(MyApp());
