@@ -4,9 +4,9 @@
 # Remember that all this is free so do not be afraid to smash that thumbs up button on YouTube video to help me to reach more people
 
 # Most Important Social Media
-YouTube: https://www.youtube.com/MadeWithFlutter
+YouTube: https://www.youtube.com/MadeWithFlutter :fire::fire::fire:
 
-I hope you liked it, and dont forget to LIKE, SUBSCRIBE, SHARE this video with your friends, and STAR the repository on GitHub!
+I hope you liked it, and dont forget to LIKE :blush:, SUBSCRIBE :kissing_closed_eyes:, SHARE :smirk: this video with your friends, and STAR :heart_eyes: the repository on GitHub!
 
 # Social Media
 GitHub: https://github.com/gerfagerfa  
@@ -18,3 +18,6 @@ LinkedIn: https://www.linkedin.com/in/gerfagerfa
 
 # Inspiration
 https://www.behance.net/gallery/92923159/LOJO-Job-Finder-App
+
+Hope you guys enjoy it !  
+:wave::wave::wave:
