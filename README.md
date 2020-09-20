@@ -9,9 +9,9 @@ YouTube: https://www.youtube.com/MadeWithFlutter
 I hope you liked it, and dont forget to LIKE, SUBSCRIBE, SHARE this video with your friends, and STAR the repository on GitHub!
 
 # Social Media
-GitHub: https://github.com/gerfagerfa
-Facebook: https://www.facebook.com/MadeWithFlutter
-Twitter: https://twitter.com/AllAboutFlutter
+GitHub: https://github.com/gerfagerfa  
+Facebook: https://www.facebook.com/MadeWithFlutter  
+Twitter: https://twitter.com/AllAboutFlutter  
 
 # Want to hire me?
 LinkedIn: https://www.linkedin.com/in/gerfagerfa
