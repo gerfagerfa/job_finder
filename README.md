@@ -1,7 +1,7 @@
 # Job Finder App UI in Flutter
 ![alt text](https://i.imgur.com/fLJnK2P.png)
 
-# Remember that all this is free so do not be afraid to smash that thumbs up button on YouTube video to help me to reach more people
+# Remember that all this is free so do not be afraid to smash that thumbs up button on YouTube video to help me to reach more people :pray:
 
 # Most Important Social Media
 YouTube: https://www.youtube.com/MadeWithFlutter :fire::fire::fire:
